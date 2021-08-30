@@ -1,0 +1,29 @@
+{
+	"ACTIONS1": {
+		"Path": "/home/project/file_transaction/test1.conf",
+		"Action": [
+			{ "cover_write": [ "[TEST]{P1}" ] },
+			{ "append_line": [ "for_test_delete_line" ] },
+			{ "delete_line": [ "for_test_delete_line" ] },
+			{ "update_line": [ "\\[TEST\\]", "\\[_TEST_\\]" ] },
+			{ "insert_after": [ "\\[_TEST_\\]", "test_insert_after" ] },
+			{ "insert_before": [ "\\[_TEST_\\]", "test_insert_before" ] },
+			{ "delete_after": [ "\\[_TEST_\\]" ] },
+			{ "delete_before": [ "\\[_TEST_\\]" ] },
+			{ "insert_after": [ "\\[_TEST_\\]", "for_test_rewrite_after" ] },
+			{ "insert_before": [ "\\[_TEST_\\]", "for_test_rewrite_before" ] },
+			{ "rewrite_after": [ "\\[_TEST_\\]", "test_rewrite_after" ] },
+			{ "rewrite_before": [ "\\[_TEST_\\]", "test_rewrite_before" ] }
+		]
+	},
+	
+	"ACTIONS2": {
+		"Path": "/home/project/file_transaction/test2.conf",
+		"Action": [
+			{ "append_line": [ "{P1}_{P2}" ] },
+			{ "insert_after": [ "\\[TEST2\\]", "test_insert_after" ] }
+		]
+	}
+}
+
+
