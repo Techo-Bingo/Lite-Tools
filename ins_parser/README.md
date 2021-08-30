@@ -1,4 +1,4 @@
-#INS Parser
+# INS Parser
 __专为shell脚本设计的INS配置文件（类ini配置文件）解析器__
 
 > INS 配置文件示例:
