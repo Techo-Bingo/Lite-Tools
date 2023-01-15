@@ -1,7 +1,7 @@
 # Lite-Tools
 小工具库
 
-```puml
+```uml
 @startuml
 Bob -> Alice : hello
 @enduml
